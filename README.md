@@ -47,3 +47,29 @@ if (s1.marks > s2.marks) {
 
 return 0;
 }
+Q3:
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, a[100];
+    cout << "Enter size: ";
+    cin >> n;
+    cout << "Enter elements:\n";
+    for(int i=0; i < n; i++)
+        cin >> a[i];
+    cout << "Array elements:\n";
+    for(int i=0; i < n; i++)
+        cout << a[i] << " ";
+    return 0;
+}
+output:
+
+Enter size: 3
+Enter elements:
+10
+20
+30
+Array elements:
+10 20 30 
+Q4:
